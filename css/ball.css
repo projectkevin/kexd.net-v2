@@ -1,0 +1,66 @@
+	.content-botton{
+		width: 250px;
+		height: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		overflow: hidden;
+	}
+	.content-botton #menu-icon-ball{
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 75px;
+		bottom: 75px;
+		border-radius: 50%;
+		cursor: pointer;
+		z-index: 20;
+		transition: all 0.2s ease;
+	}
+	#menu-content{
+		display: none;
+		width: 250px;
+		height: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 10;
+	}
+
+		#menu-content.show-menu-content{
+			display: block;
+		}
+
+	#menu-content #close-menu{
+		position: absolute;
+		top: 25px;
+		left: 25px;
+		color: #FFF;
+		font-family: Arial;
+		cursor: pointer;
+	}
+	.expand-ball{
+		width: 200% !important;
+		height: 200% !important;
+		right: -50% !important;
+		bottom: -50% !important;
+	}
+	.papersheet__trigger-icon {
+		fill: #FFF;
+		vertical-align: bottom;
+		width: 1.4rem;
+		height: 1.4rem;
+	}
+
+
+	li {
+	  display: block;
+	  text-align: left;
+	}
+
+	li > a {
+	  text-decoration: none;
+	}
+		#menu-content > ul {
+			padding-top: 50%;
+		}
