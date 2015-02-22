@@ -188,6 +188,7 @@ body {
 
 #menu-content{
   background: #cb4b16;
+  z-index: 99999;
 }
 
 .content-botton #menu-icon-ball{
@@ -203,3 +204,12 @@ body {
 	  color: #859900 !important;
     text-dectoration: none !important;
 	}
+
+
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      /* Set the fixed height of the footer here */
+      height: 60px;
+    }

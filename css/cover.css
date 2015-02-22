@@ -193,6 +193,7 @@ body {
 
 #menu-content{
   background: #859900;
+  z-index: 99999;
 }
 
 	#menu-content > ul > li > a {
